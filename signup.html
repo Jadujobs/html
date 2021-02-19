@@ -1,0 +1,60 @@
+<html>
+  <body>
+    <button><a href="./index.html">Home Page</a></button>
+    <h1>Sign up Page</h1>
+
+    <!-- Name, Email, Password, Age, Gender, Submit Button -->
+
+    <!-- !!Validation -->
+    <form action="/index.html">
+      <div>
+        <label for="user_name">Name:</label>
+        <input
+          name="user_name"
+          required
+          id="user_name"
+          placeholder="Your Name"
+          type="text"
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          required
+          name="email"
+          id="email"
+          placeholder="Your Email"
+          type="email"
+        />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          name="password"
+          required
+          id="password"
+          placeholder="Password"
+          type="password"
+        />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input name="age" required id="age" placeholder="age" type="number" />
+      </div>
+      <!-- Check Box, Radio Button -->
+      <!-- [x] -->
+      <!-- [x] -->
+      <!-- [x] -->
+
+      <div>
+        <label for="male">Male:</label>
+        <input id="male" name="gender" value="Male" type="radio" />
+        <label for="female">Female:</label>
+        <input id="female" name="gender" checked value="Female" type="radio" />
+      </div>
+      <input type="submit" value="Sign me UP!!!" />
+    </form>
+
+    <!-- http://127.0.0.1:5500/index.html?user_name=ARsalan&email=akkhattak65%40gmail.com&password=asdasd&age=23&gender=Male-->
+  </body>
+</html>
