@@ -1,0 +1,32 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
+    color: indigo;
+}
+
+h2 {
+    color: #ff00ff;
+    border: 2px solid black;
+    margin: auto;
+  }
+
+  p {
+      color: hsl(174, 72%, 56%);
+      background-color: rgb(255, 99, 71);
+      padding:  20px 10px 5px 1px;
+      /* margin:  20px 10px 5px 1px; */
+      border: 2px solid black;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  span {
+      color: yellow;
+      font-weight: 900;
+      text-transform: lowercase;
+      text-decoration: line-through;
+      font-size: 10px;
+      margin-left: auto;
+      display: block ;
+  }
