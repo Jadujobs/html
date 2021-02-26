@@ -1,32 +1,74 @@
-html, body {
-    font-family: 'Lato', sans-serif;
-    background-color: grey;
-    color: indigo;
+html,
+body {
+  font-family: "Lato", sans-serif;
+  background-color: grey;
+  /* color: indigo; */
 }
 
+#logo-text,
+#logo-text2 {
+  color: lightcoral;
+}
+.main-text,
+.secondary-text,
+.secondary-text2,
+.secondary-text4 {
+  color: indigo;
+}
+.asd {
+  background-color: khaki;
+}
+
+/* .div_c h1 {
+  color: lightcyan;
+} */
 h2 {
-    color: #ff00ff;
-    border: 2px solid black;
-    margin: auto;
-  }
+  color: #ff00ff;
+  border: 2px solid black;
+  margin: auto;
+}
 
-  p {
-      color: hsl(174, 72%, 56%);
-      background-color: rgb(255, 99, 71);
-      padding:  20px 10px 5px 1px;
-      /* margin:  20px 10px 5px 1px; */
-      border: 2px solid black;
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-  }
+p {
+  color: hsl(174, 72%, 56%);
+  background-color: rgb(255, 99, 71);
+  padding: 20px 10px 5px 1px;
+  /* margin:  20px 10px 5px 1px; */
+  border: 2px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  span {
-      color: yellow;
-      font-weight: 900;
-      text-transform: lowercase;
-      text-decoration: line-through;
-      font-size: 10px;
-      margin-left: auto;
-      display: block ;
-  }
+span {
+  color: yellow;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  font-size: 10px;
+  margin-left: auto;
+  display: block;
+}
+
+a[href="https://google.com"],
+a[href="https://microsoft.com"]
+{
+  color: green;
+}
+
+a[href="https://facebook.com"]:visited
+{
+  color: limegreen;
+}
+
+.input_place {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.input_place:focus {
+  font-size: 24px;
+}
+
+.hover_me:visited {
+  color: lightpink;
+}

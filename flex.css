@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: mediumslateblue;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  /* margin-left: auto; */
+  align-items: center;
+}
+
+.link {
+  margin-right: 20px;
+}
+
+.div_flex {
+  display: flex;
+}
+
+p {
+  background-color: mediumturquoise;
+  width: 400px;
+}
+.div_p {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
+
+/* 
+display: flex
+flex-direction
+flex-wrap
+justify-content
+align-items
+
+*/
